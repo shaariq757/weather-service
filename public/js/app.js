@@ -17,7 +17,6 @@ form.addEventListener('submit',(e)=>{
                mOne.textContent = data.error.info
             }
             else{
-                console.log(data)
             mOne.textContent = data.location;
             mTwo.textContent = data.forecast;
             }
