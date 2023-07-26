@@ -14,7 +14,7 @@ form.addEventListener('submit',(e)=>{
     fetch('/weather?address='+loc).then((res)=>{
         res.json().then((data)=>{
             if(data.error){
-               mOne.textContent = data.error.info
+               mOne.textContent = data.error
             }
             else{
             mOne.textContent = data.location;
