@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,21 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="main-content">
-    {{>header}}
-    <p>Get info about the weather</p>
-    <form>
-        <input type="text" placeholder="Location">
-        <button>Search</button>
-    </form>
-    <p id="mOne"></p>
-    <p id="mTwo"></p>
+        {{>header}}
+        <p>Get info about the weather</p>
+        <form>
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form>
+        <p id="mOne"></p>
+        <h2 id="mTwo"></h2>
+        <p id="mThree"></p>
     </div>
     {{>footer}}
-<script src="js/app.js"></script>    
+    <script src="js/app.js"></script>
 </body>
+
 </html>
